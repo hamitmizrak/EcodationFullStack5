@@ -16,24 +16,55 @@
     <!-- start code -->
 <h1 align="center">Register</h1>
 <form action="#" method="get" autocomplete="on">
-    <table width="80%" border="1" cellpadding="8" cellspacing="1" id="register" name="register" enctype="multipart/form-data">
+    <table width="80%" border="0" cellpadding="8" cellspacing="1" id="register" name="register" enctype="multipart/form-data">
         <tbody>
             <tr>
-                <td><i class="fa-solid fa-user"></i></td>
-                <td><input type="text" autofocus required placeholder="Adınızı giriniz" title="Adınız" /> </td>
+                <td><i class="fa-solid fa-user" title="Adınız" ></i></td>
+                <td><input type="text" autofocus required placeholder="Adınızı giriniz" id="name" name="name" /> </td>
             </tr>
             <tr>
-                <td><i class="fa-solid fa-clipboard-user"></i></td>
-                <td><input type="text" required placeholder="Soyadınızı giriniz" /> </td>
+                <td><i class="fa-solid fa-clipboard-user" title="Soyadınız"></i></td>
+                <td><input type="text" required placeholder="Soyadınızı giriniz"  id="surname" name="surname" /> </td>
             </tr>
             <tr>
-                <td><i class="fa-solid fa-envelope"></i></td>
-                <td><input type="email" required placeholder="Emailinizi giriniz" /> </td>
+                <td><i class="fa-solid fa-envelope" title="Email adresiniz"></i></td>
+                <td><input type="email" required placeholder="Emailinizi giriniz"   id="email" name="email"  /> </td>
             </tr>
             <tr>
-                <td><i class="fa-solid fa-key"></i></td>
-                <td><input type="password" required placeholder="Şifrenizi giriniz" /> </td>
+                <td><i class="fa-solid fa-key" title="Şifreniz"></i></td>
+                <td><input type="password" required placeholder="Şifrenizi giriniz"    id="password" name="password"   /> </td>
             </tr>
+            <tr>
+                <td><i class="fa-solid fa-cake-candles" title="doğum günü"></i></td>
+                <td><input type="date" required    id="birthday" name="birthday"   /> </td>
+            </tr>
+          
+            <tr>
+                <td><i class="fa-solid fa-venus-mars" title="Cinsiyetiniz"></i></td>
+                <td>
+                    <input type="radio" name="gender" id="female" checked/>Bayan 
+                    <input type="radio" name="gender" id="male"/>Erkek </td>
+            </tr>
+     
+            <tr>
+                <td><i class="fa-solid fa-pen" title="Yetenekler"></i></td>
+                <td>
+                    <input type="checkbox" name="html" id="html" checked/>Html5 
+                    <input type="checkbox" name="css3" id="css3" />Css3 
+                    <input type="checkbox" name="js" id="js" />JS 
+            </tr>
+        
+            <tr>
+                <td><i class="fa-solid fa-city" title="Memleketiniz"></i></td>
+                <td>
+                   <select id="country" name="country" >
+                       <option value="0">Ülkenizi seçiniz</option>
+                       <option value="tr">Türkiye</option>
+                       <option value="fr">Fransa</option>
+                       <option value="ge">Almanya</option>
+                   </select>
+            </tr>
+
             <br />
             <tr>
                 <td></td>
