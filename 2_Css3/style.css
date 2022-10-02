@@ -28,7 +28,7 @@ h1{
 
     color:blueviolet;
 
-    width: 20%;
+    width: 48%;
     min-height: 100px;
 
     padding:10px 5px 20px 8px;
@@ -44,7 +44,7 @@ h1{
     border-top-left-radius: 25px;
     border-radius: 25px;
 
-    font-size: 15px;
+    font-size: 8px;
     font-weight: 200;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:italic;
@@ -56,6 +56,7 @@ h1{
     display: inline;
     display: block;
     display: inline-block;
+    float:right;
 }
 
 .div_class:hover{
@@ -73,3 +74,62 @@ h1{
     color:blue;
 }
 
+.clearfix_data::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*Group selector*/
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box; /*padding+border+width=10px*/
+}
+
+div,p{
+    box-shadow: 1px 2px 1px 5px rgba(0,0,0,0.2);
+}
+div > p{
+    font-size: 30px;
+}
+
+/* ~=div ile p aynı sevide olacak tüm p'ler */
+div ~ p {
+font-size: 55px;
+}
+
+/*listem*/
+ul{
+    margin-left:55px;
+    list-style-type: none;
+}
+
+li{
+    color:chartreuse;
+    background: black;
+    padding:5px;
+    margin-top:5px;
+    max-width: 25%;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius: 10%;
+    transition: 2s all;
+}
+
+li:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+    color:black;
+    background: chartreuse;   
+    text-transform: uppercase;
+    border-radius: 15%;
+}
+
+li:first-child{
+    color:blue;
+}
+
+li:first-child:hover{
+    color:orange;
+}
