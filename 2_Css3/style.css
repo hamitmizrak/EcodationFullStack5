@@ -1,0 +1,55 @@
+/* yorumlama alanı: */
+/* p{
+    font-size: 4rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+/* id */
+/* #head_id{
+    color: orange!important;
+} */
+
+/* class */
+/* .head_class{
+    background:black;
+}  */
+
+/*div */
+.div_class{
+    background: black;
+    background: #000;
+    background: #000000;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,.9);
+
+    color:blueviolet;
+
+    width: 20%;
+    min-height: 100px;
+
+    padding:10px 5px 20px 8px;
+    padding:20px 25px;
+    padding:40px;
+
+    margin:40px 10px;
+
+    border-width: 2px;
+    border-style:dotted;
+    border-color: yellow!important;
+    border:2px solid blue;
+    border-top-left-radius: 25px;
+    border-radius: 25px;
+
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+
+    text-align: left;
+
+}
+
