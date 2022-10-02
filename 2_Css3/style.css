@@ -50,6 +50,26 @@ h1{
     font-style:italic;
 
     text-align: left;
+    cursor: pointer;
 
+    display: none;
+    display: inline;
+    display: block;
+    display: inline-block;
+}
+
+.div_class:hover{
+    border-color: blueviolet!important;
+    color:yellow;
+}
+
+
+.div_class > a{
+    color:yellow;
+    text-decoration: none;
+}
+
+.div_class > a:hover{
+    color:blue;
 }
 
