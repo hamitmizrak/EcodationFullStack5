@@ -1,16 +1,16 @@
-//document 
+//document
 //window
 
 /*çoklu yorumlar*/
 // camelCase
 // PascalCase
-// underscore 
+// underscore
 // hyphens -
 //""
 //''
 //``
 
-//Çıktı: 
+//Çıktı:
 // console.log("log")
 // console.error("error")
 // console.warn("warn")
@@ -24,13 +24,107 @@
 // const PI=3.141519;
 
 
-var degisken=44;
-var degisken41=44;
-var _degisken41=44;
-var $degisken41=44;
-var degiskenAdi=44;
+// var degisken=44;
+// var degisken41=44;
+// var _degisken41=44;
+// var $degisken41=44;
+// var degiskenAdi=44;
 
 // var +degisken41=44;
 // var 545degisken41=44;
+
+//whoisting
+// number=14;
+// var number;
+// console.log(number);
+
+// var employeeName;
+// var employee_name;
+// var _employee_name;
+
+// let employeeName="Hamit";//String
+// console.log(typeof employeeName);
+
+// let employeeSurname="Mızrak";//String
+// console.log(typeof employeeSurname);
+
+// let employeeLanguage=5;//Number
+// console.log(typeof employeeLanguage);
+
+// let employeeLanguage2=5.456;//Number
+// console.log(typeof employeeLanguage2);
+
+// let isTurkish=true; //Boolean
+// console.log(typeof isTurkish);
+
+//undefined
+// var result=3>1;
+// console.log(result)
+
+//operator
+// +
+console.log(4+2);
+
+// -
+console.log(6-2);
+
+// *
+console.log(6*2);
+
+// **
+console.log(2**5);
+console.log(Math.pow(2,5));
+
+// /
+console.log(9/2);
+
+// %
+console.log(9%2);
+
+console.log("***************")
+
+let counter=0;
+console.log(counter)
+console.log(counter++)
+console.log(counter)
+// x++
+
+console.log("***************")
+
+let counter2=0;
+console.log(counter2)
+console.log(++counter2)
+console.log(counter2)
+// ++x
+
+console.log("***************")
+
+let counter3=5;
+console.log(counter3)
+console.log(counter3--)
+console.log(counter3)
+// x--
+
+console.log("***************")
+
+let counter4=5;
+console.log(counter4)
+console.log(--counter4)
+console.log(counter4)
+// y--
+// --y
+
+//!
+let data=true; 
+console.log(!data)
+// ||=VEYA  &=VE
+
+// =   -> ATAMA
+// ==  -> EŞİT ancak türlerine bakmadan
+// 4=="4" sonuc eşittir
+
+// === -> EŞİT ve Türüne bakarak eşitmi (typeof data)
+// 4==="4" sonuc eşit değildir
+
 
 
