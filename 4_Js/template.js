@@ -145,21 +145,63 @@
 // console.log( typeof userData);
 
 //undefined
-var variable;
-console.log(variable);
+// var variable;
+// console.log(variable);
 
-//Infinity
-var variable2=4/0;
-console.log(variable2);
+// //Infinity
+// var variable2=4/0;
+// console.log(variable2);
 
-//NaN: not A number
-var variable3=4/"asd";
-console.log(variable3);
+// //NaN: not A number
+// var variable3=4/"asd";
+// console.log(variable3);
 
 
-//isNaN 
-console.log(isNaN(44))
+// //isNaN 
+// console.log(isNaN(44))
 
 //new:hafızan yer açar
 //null:hafızayı siler
 //zero:değeri yoktur
+
+//escape character 
+// console.log("1.satır\n2.satır")
+// console.log("3.satır\"4.satır")
+// console.log("4.satır\n\t5.satır")
+
+//break: döngüyü orada sonlandırır.
+//return: metodu orada sonlandırır.
+//continue: sadece 1 kereye o şartın sağlandığında çalışmasın sonra devam etsin
+//debugger: debug için point oluşturmaya yarar.
+
+//Math
+console.log(Math.min(2,5,6,2,9,11,-965));
+console.log(Math.max(2,5,6,2,9,11,-965));
+console.log(Math.abs(-965));
+console.log(Math.sqrt(16));
+console.log(Math.sqrt(Math.abs(-16)));
+console.log(Math.pow(2,5));
+
+//yuvarlamak
+console.log(Math.ceil(4.1));
+console.log(Math.floor(4.9));
+console.log(Math.round(4.4));
+console.log(Math.round(4.5));
+
+//sin cos
+console.log(Math.sin(45));
+console.log(Math.cos(45));
+
+//Random
+console.log(Math.random()*4+1);
+console.log(Math.round(Math.random()*4+1));
+
+// Math Ödev
+// Kullanıcıda tarafından aldığımız 2 tane sayının
+// s1-) Bu sayılardan en küçüğü nedir ?
+// s2-) Bu sayılardan en büyüğü nedir ?
+// s3-) Bu sayılardan en büyüğü karekökü nedir ?
+// s4-) Bu sayılardan en büyüğü karekökünün üste yuvarlıyalım nedir ?
+// s5-) Bu sayılardan en küçüğü mutlak değeri nedir ?
+// s6-) Bu sayılardan en küçüğü alt taban en büyüğü üst taban şeklinde üstünü alalım
+
