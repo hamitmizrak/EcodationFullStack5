@@ -206,49 +206,58 @@
 // s6-) Bu sayılardan en küçüğü alt taban en büyüğü üst taban şeklinde üstünü alalım ?
 
 //SAYI
-let sayi1=55;
-sayi1=14.5263;
-console.log(sayi1);
-console.log(typeof sayi1);
+// let sayi1=55;
+// sayi1=14.5263;
+// console.log(sayi1);
+// console.log(typeof sayi1);
 
-//virgüllü sayı
-console.log(sayi1.toFixed(1));
+// //virgüllü sayı
+// console.log(sayi1.toFixed(1));
 
-//bilimsel gösterim
-let bilimselGosterim=13E+5;
-console.log(bilimselGosterim);
+// //bilimsel gösterim
+// let bilimselGosterim=13E+5;
+// console.log(bilimselGosterim);
 
-let bilimselGosterim2=13E-5;
-console.log(bilimselGosterim2);
+// let bilimselGosterim2=13E-5;
+// console.log(bilimselGosterim2);
 
-const sayi12=45000;
-console.log(sayi12.toExponential(3));
+// const sayi12=45000;
+// console.log(sayi12.toExponential(3));
 
-//cast
-//const number41=Number(prompt("sayı girininiz"));
+// //cast
+// //const number41=Number(prompt("sayı girininiz"));
 
-//Infinity
-let data=44/0;
-console.log(data);
+// //Infinity
+// let data=44/0;
+// console.log(data);
 
-//NaN
-let data2=44/"asd";
-console.log(data2);
+// //NaN
+// let data2=44/"asd";
+// console.log(data2);
 
-//Binary: 2 (0-1)
-let binary=0b01011;
-console.log(binary);
+// //Binary: 2 (0-1)
+// let binary=0b01011;
+// console.log(binary);
 
-//Octal 8 (0-1-2-3-4-5-6-7)
-let octal=07161;
-console.log(octal);
+// //Octal 8 (0-1-2-3-4-5-6-7)
+// let octal=07161;
+// console.log(octal);
 
-//Decimal 10 (0-1-2-3-4-5-6-7-8-9)
-let decimal=10123;
-console.log(decimal);
+// //Decimal 10 (0-1-2-3-4-5-6-7-8-9)
+// let decimal=10123;
+// console.log(decimal);
 
-//Hexadecimal 16 (0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F)
-let hexadecimal=0xAbc98;
-console.log(hexadecimal);
+// //Hexadecimal 16 (0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F)
+// let hexadecimal=0xAbc98;
+// console.log(hexadecimal);
+
+
+//KELIME
+let variable=" Html5 Css3 js Öğreniyorum ";
+console.log(variable.length);
+document.writeln(variable.length);
+document.writeln("<br/>"+variable.trim().length);
+document.writeln("<br/>"+variable.toUpperCase());
+document.writeln("<br/>"+variable.toLowerCase());
 
 
