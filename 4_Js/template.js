@@ -251,13 +251,25 @@
 // let hexadecimal=0xAbc98;
 // console.log(hexadecimal);
 
-
 //KELIME
-let variable=" Html5 Css3 js Öğreniyorum ";
+let variable="Html5 Css3 js Öğreniyorum ";
 console.log(variable.length);
 document.writeln(variable.length);
 document.writeln("<br/>"+variable.trim().length);
 document.writeln("<br/>"+variable.toUpperCase());
 document.writeln("<br/>"+variable.toLowerCase());
+document.writeln("<br/>"+variable.startsWith("H"));
+document.writeln("<br/>"+variable.endsWith(" "));
+document.writeln("<br/>"+variable.concat(" ES5+ spring"));
+document.writeln("<br/>"+variable.replace(variable,"backend"));
+
+//substring
+//charAt
+//indexOf
+//lastIndexOf
+
+//döngüler for/while do-while  
+//diziler 
+//object
 
 
